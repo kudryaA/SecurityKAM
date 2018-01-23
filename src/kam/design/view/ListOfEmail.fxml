@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kam.design.contoller.ListOfEmail">
+   <children>
+      <Label layoutX="14.0" layoutY="17.0" text="Enter each new email from the new line">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="textAreaEmail" layoutX="14.0" layoutY="55.0" prefHeight="296.0" prefWidth="571.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="71.0" fitWidth="45.0" layoutX="272.0" layoutY="358.0" onMouseClicked="#clickOk" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/ok.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
